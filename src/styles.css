@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 
-.App {
+* {
 	font-family: 'Fraunces', sans-serif;
-	text-align: center;
+}
+
+.btn__primary {
+	@apply mx-10 px-5 py-2 bg-indigo-800 text-white text-center rounded hover:bg-indigo-900;
 }
