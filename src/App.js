@@ -7,8 +7,7 @@ import Planets from './components/Planets';
 
 import { Bultin } from './components/posts/main';
 
-import PostLoader from './loader/posts/PostLoader';
-import HeaderLoader from './loader/posts/HeaderLoader';
+import { PostsLoader } from './loader/posts/main';
 
 export default function App() {
 	let [page, setPage] = useState('people');
@@ -30,10 +29,7 @@ export default function App() {
 				<Bultin />
 			</div>
 			<div>
-				<PostLoader />
-			</div>
-			<div>
-				<HeaderLoader />
+				<PostsLoader />
 			</div>
 		</>
 	);

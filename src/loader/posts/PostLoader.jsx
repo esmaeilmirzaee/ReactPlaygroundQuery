@@ -26,7 +26,6 @@ function PostLoader() {
 					<div className="col-span-3 h-4 bg-gray-200 animate-pulse"></div>
 					<div className="col-span-2 h-4 bg-gray-200 animate-pulse"></div>
 					<div className="col-span-2 h-4 bg-gray-200 animate-pulse"></div>
-					<div className="col-span-1 h-4 bg-gray-200 animate-pulse"></div>
 					<div className="col-span-2 h-4 bg-gray-200 animate-pulse"></div>
 				</div>
 			</div>
