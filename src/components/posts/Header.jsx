@@ -3,10 +3,12 @@ function Header({ post }) {
 	return (
 		<div className="shadow-xl overflow-hidden m-2">
 			<div className="">
-				<img
+				<video
 					src={post.poster}
 					alt=""
 					className="w-full rounded rounded-b-none h-64"
+					autoplay
+					repeat
 				/>
 				{/* Post title */}
 				<div className="m-3">
