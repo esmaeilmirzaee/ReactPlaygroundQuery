@@ -1,11 +1,11 @@
 import './styles.css';
 
-import { StarWarsQuery } from './components/query/main';
+import { Forms } from './components/forms/main';
 
 export default function App() {
 	return (
 		<>
-			<StarWarsQuery />
+			<Forms />
 		</>
 	);
 }
